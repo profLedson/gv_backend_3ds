@@ -9,6 +9,5 @@ if (solteiro == true) {
     console.log('Se liga, tenho compromisso!')
 }
 // Expressão Ternária
-const estadoCivil = solteiro == true 
-? 'Tá na pista!' : 'Se liga, tenho compromisso!'
+const estadoCivil = solteiro == true ? 'Tá na pista!' : 'Se liga, tenho compromisso!'
 console.log(estadoCivil)
