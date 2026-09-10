@@ -1,14 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Inicial</title>
+    <title>PetShop - Página Inicial</title>
 </head>
-<body>
-        <h3>Página Inicial</h3>
-        <p>Bem-vindo(a) à home!</p>
-        <a href="/compras">Navegar para Compras</a>
-        <a href="/erro">Página Erro</a>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f7f9fa; color: #333; display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+
+    <div style="background: #ffffff; width: 100%; max-width: 450px; padding: 40px 30px; border-radius: 24px; box-shadow: 0 12px 30px rgba(0,0,0,0,06); text-align: center; border: 1px solid #eef2f5; margin: 20px;">
+        
+        <!-- Ícone decorativo (Pegada de Pet) -->
+        <div style="font-size: 48px; margin-bottom: 15px; color: #ffb703;">🐾</div>
+        
+        <!-- Título Principal -->
+        <h3 style="margin: 0 0 10px 0; font-size: 28px; color: #023e8a; font-weight: 700; letter-spacing: -0.5px;">
+            Página Inicial
+        </h3>
+        
+        <!-- Texto de Boas-vindas -->
+        <p style="margin: 0 0 35px 0; font-size: 16px; color: #6c757d; line-height: 1.5;">
+            Bem-vindo(a) à home do seu pet! <br>Tudo o que seu melhor amigo precisa está aqui.
+        </p>
+        
+        <!-- Container de Links/Botões -->
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+            
+            <!-- Link Compras (Destaque) -->
+            <a href="/compras" style="display: block; text-decoration: none; background-color: #0284c7; color: #ffffff; padding: 14px 20px; border-radius: 12px; font-weight: 600; font-size: 16px; transition: background 0.2s ease; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);">
+                🛒 Navegar para Compras
+            </a>
+            
+            <!-- Link Erro (Secundário) -->
+            <a href="/erro" style="display: block; text-decoration: none; background-color: #f1f5f9; color: #64748b; padding: 14px 20px; border-radius: 12px; font-weight: 600; font-size: 16px; transition: all 0.2s ease;">
+                ⚠️ Página Erro
+            </a>
+            
+        </div>
+
+    </div>
+
 </body>
 </html>
